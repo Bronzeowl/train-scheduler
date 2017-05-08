@@ -13,7 +13,7 @@ $(document).ready(function () {
   var database = firebase.database();
 
   // Capture Button Click
-  $("#addTrain").on("click", function () {
+  $("#addTrain").on("click", function (event) {
     event.preventDefault();
 
     // Grabbed values from text boxes
